@@ -1,0 +1,36 @@
+Configuration for Spring & Hibernate
+1. Define Database dataSource / connection pool
+2. Setup Hibernate session factory
+3. Setup Hibernate transaction manager
+4. Enable configuration of transactional annotations
+
+Big Picture
+1. Web Browser send request to Customer Controller
+2. Which sends customer to Customer Data Access Object
+3. Which sends it to the Hibernate database
+4. The Customer data is then displayed on JSP Pages
+5. The JSP(JavaServer Page) pages is then displayed to the user via web browser
+
+Add Customer 
+1. Update list-customer.jsp
+	new "Add Customer" button
+2. Create HTML form for new customer
+3. Process Form Data
+	1. Controller -> Service -> DAO
+	
+Service Layer
+1. Define Service interface
+2. Define Service Implementation
+
+JSP page is a Java standard technology that enables you to write dynamic,
+data-driven pages for Java web applications. It's built on top of
+the Java Servlet specifications
+
+Java Servlet provide URL mapping and request handling capabilities in your Java
+web applications
+
+Entity class
+Java class that is mapped to a database table
+
+DAO
+Data Access Object
